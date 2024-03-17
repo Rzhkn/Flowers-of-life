@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial Black, sans-serif;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: #80A1D4;
+    padding: 0 100px;
+}
+
+header div {
+    display: flex;
+}
+
+.logo {
+    margin: auto 0;
+    margin-right: 20px;
+    color: white;
+}
+
+.navigation {
+    margin-left: auto;
+}
+
+.navigation img {
+    margin: auto 0;
+    margin-left: 20px;
+}
+
+.main {
+    height: 30vw;
+    min-height: 400px;
+    text-align: center;
+    padding-top: 70px;
+    background: url(img/flowers.svg) left bottom no-repeat,
+        url(img/flowers2.svg) right bottom no-repeat;
+    background-size: 40%;
+    background-color: white;
+}
+
+h2 {
+    color: #80A1D4;
+    font-size: 48px;
+}
+
+.button {
+    width: 190px;
+    height: 53px;
+    border: solid 3px #80A1D4;
+    color: #80A1D4;
+    font-size: 20px;
+    text-align: center;
+    line-height: 53px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.promotions{
+    margin: 100px 0;
+    background-color: white
+}
+
+h3{
+    color: #80A1D4;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pr_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pr_wrap_div{
+    width: 321px;
+    height: 340px;
+    border: solid 5px #80A1D4;
+    margin-top: 30px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.pr_wrap_div .background{
+    height: 225px;
+    text-align: center;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 20px;
+}
+
+.pr_wrap_div .name{
+    height: 45px;
+    display: flex;
+}
+
+.pr_wrap_div .name .n{
+    max-width: 187px;
+    margin-top: auto;
+}
+
+.pr_wrap_div .name .p{
+    margin-left: auto;
+    margin-top: auto;
+}
+
+.pr_wrap_div p{
+    color: #80A1D4;
+    font-size: 15px;
+}
+
+.advantages_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    background-color: #80A1D4;
+}
+
+.advantages {
+    width: 336px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    background-color: #80A1D4;
+}
+
+.limiter {
+    width: 2px;
+    height: 200px;
+    margin: auto 0;
+    background-color: white;
+}
+
+.advantages .content {
+    margin: auto;
+    color: white;
+    font-size: 20px;
+}
+
+.advantages .content p {
+    margin-top: 20px;
+    max-width: 280px;
+}
+
+.catalog {
+    display: flex;
+}
+
+.catalog .filters {
+    width: 20%;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.catalog .filters h5{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-family: Arial;
+    font-size: 20px;
+    color: #80A1D4;
+}
+
+.price {
+    display: flex;
+}
+
+.price p {
+    margin: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #80A1D4;
+}
+
+input[type="number"] {
+	background-color: #FFFFFF;
+	vertical-align: middle;
+    text-align: center;
+	outline: none;
+    width: 93px;
+	height: 33px;
+	border: 2px solid #80A1D4;
+    border-radius: 20px;
+	font-size: 18px;
+	font-family: Arial;
+    color: #80A1D4;
+} 
+
+.filters label {
+    font-size: 18px;
+	font-family: Arial;
+    color: #80A1D4;
+}
+
+.color {
+    display: flex;
+    width: 165px;
+    justify-content: space-between;
+}
+
+.color div{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.content_wrap {
+    width: 75%;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.catalog h4 {
+    width: 100%;
+    margin-top: 30px;
+    font-size: 24px;
+    color: #80A1D4;
+}
+
+.content_wrap h4 img {
+    vertical-align: middle;
+}
+
+.num {
+    width: 100%;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.num a {
+    text-decoration: none;
+    font-size: 36px;
+    margin-left: 20px;
+    color: #C0D0EA;
+}
+
+.num a img {
+    width: 40px;
+    vertical-align: bottom;
+}
+
+footer {
+    margin: 100px 0;
+    padding: 70px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    header {
+        padding: 0 30px;
+    }
+
+    .main {
+        min-height: 282px;
+    }
+
+    .main h2 {
+        font-size: 24px;
+    }
+
+    .button {
+        width: 168px;
+        height: 47px;
+        font-size: 15px;
+        line-height: 47px;
+    }
+
+}
